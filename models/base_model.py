@@ -15,6 +15,7 @@ class BaseModel:
 
     def __init__(self, *args, **kwargs) -> None:
         """Initialization of BaseModel Class"""
+
         self.id = str(uuid4())
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
@@ -29,13 +30,16 @@ class BaseModel:
             models.storage.new(self)
 
     def __str__(self) -> str:
-        """Return a string representation of the BaseModel instance."""
+        """Return a string representation
+        of the BaseModel instance."""
+
         return "[{}] ({}) {}".format(
                 self.__class__.__name__, self.id, self.__dict__)
 
     def save(self) -> None:
-        """Update the public instance attribute updated_at with the current
-        datetime."""
+        """Update the public instance attribute
+        updated_at with the current datetime."""
+
         self.updated_at = datetime.now()
         models.storage.save()
 
@@ -44,6 +48,7 @@ class BaseModel:
         Return a dictionary containing all keys/values
         of __dict__ of the instance.
         """
+
         todict = dict(self.__dict__)
         todict = self.__dict__.copy()
         todict["__class__"] = self.__class__.__name__
