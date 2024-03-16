@@ -7,7 +7,7 @@
 	position: relative;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	padding: 1rem;
 }
 
 button {
@@ -42,4 +42,8 @@ button:hover {
 .locations h4, .amenities h4 {
         font-weight: 400;
 	font-size: 14px;
+}
+
+.amenities {
+	padding-left: 1rem;
 }
