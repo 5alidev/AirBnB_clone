@@ -55,6 +55,7 @@ button:hover {
 	list-style: none;
 	display: none;
 	margin-left: -15px;
+	padding: 1rem
 }
 
 .popover ul {
