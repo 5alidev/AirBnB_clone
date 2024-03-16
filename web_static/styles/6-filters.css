@@ -54,7 +54,8 @@ button:hover {
 	list-style: none;
 	display: none;
 	margin-left: -15px;
-	padding: 1rem
+	padding: 1rem;
+	margin-top: 20px;
 }
 
 .popover li {
