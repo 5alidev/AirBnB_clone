@@ -50,12 +50,15 @@ button:hover {
 
 .popover {
 	background-color: #FAFAFA;
-	width: 90%;
 	border: 1px solid #DDDDDD;
 	list-style: none;
 	display: none;
 	margin-left: -15px;
 	padding: 1rem
+}
+
+.popover li {
+	padding: .5rem
 }
 
 .popover ul {
