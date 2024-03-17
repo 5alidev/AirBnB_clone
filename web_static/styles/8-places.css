@@ -1,4 +1,4 @@
-.place {
+.places {
 	margin-top: 25px;
 }
 
@@ -46,7 +46,6 @@ article h2 {
 	border-top: 1px solid #DDDDDD;
 	border-bottom: 1px solid #DDDDDD;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 }
 
@@ -59,12 +58,29 @@ article h2 {
 
 .max_guest {
 	background-image: url("../images/icon_group.png");
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	flex-direction: column;
 }
 
 .number_rooms {
         background-image: url("../images/icon_bed.png");
+	display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
 }
 
 .number_bathrooms {
         background-image: url("../images/icon_bath.png");
+	display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+}
+
+.articles {
+	display: flex;
+	justify-content: center;
 }
