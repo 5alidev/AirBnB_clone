@@ -58,6 +58,7 @@ button:hover {
 	margin-top: 20px;
 	position: absolute;
 	width: 25%;
+	z-index: 99;
 }
 
 .popover li {
