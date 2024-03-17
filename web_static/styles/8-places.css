@@ -21,6 +21,7 @@ article {
 article h2 {
 	font-size: 30px;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .price_by_night {
@@ -33,6 +34,11 @@ article h2 {
 	position: absolute;
 	top: 20px;
 	right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem .5rem;
 }
 
 .information {
