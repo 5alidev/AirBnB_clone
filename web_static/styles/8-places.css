@@ -62,6 +62,7 @@ article h2 {
 	align-items: center;
 	justify-content: end;
 	flex-direction: column;
+	margin: 10px;
 }
 
 .number_rooms {
@@ -70,6 +71,7 @@ article h2 {
         align-items: center;
         justify-content: end;
         flex-direction: column;
+	margin: 10px;
 }
 
 .number_bathrooms {
@@ -78,9 +80,11 @@ article h2 {
         align-items: center;
         justify-content: end;
         flex-direction: column;
+	margin: 10px;
 }
 
 .articles {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 80px;
 }
